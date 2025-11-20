@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Q-learning (greedy)",
+    "n_episodes": 2000,
+    "mean_return": 0.268325,
+    "mean_questions": 1.6835,
+    "accuracy": 0.3525,
+    "group_stats": {
+      "Female": {
+        "mean_return": 0.22568527918781728,
+        "mean_questions": 1.6791878172588832,
+        "accuracy": 0.3096446700507614
+      },
+      "Male": {
+        "mean_return": 0.30677595628415305,
+        "mean_questions": 1.6896174863387978,
+        "accuracy": 0.3912568306010929
+      },
+      "Other": {
+        "mean_return": 0.33649999999999997,
+        "mean_questions": 1.67,
+        "accuracy": 0.42
+      }
+    }
+  },
+  {
+    "name": "Random policy",
+    "n_episodes": 2000,
+    "mean_return": 0.155625,
+    "mean_questions": 0.9975,
+    "accuracy": 0.2055,
+    "group_stats": {
+      "Female": {
+        "mean_return": 0.16005,
+        "mean_questions": 1.019,
+        "accuracy": 0.211
+      },
+      "Male": {
+        "mean_return": 0.13948237885462555,
+        "mean_questions": 0.9768722466960352,
+        "accuracy": 0.1883259911894273
+      },
+      "Other": {
+        "mean_return": 0.2668478260869565,
+        "mean_questions": 0.967391304347826,
+        "accuracy": 0.31521739130434784
+      }
+    }
+  },
+  {
+    "name": "Fixed-sequence heuristic",
+    "n_episodes": 2000,
+    "mean_return": 0.161,
+    "mean_questions": 5.0,
+    "accuracy": 0.411,
+    "group_stats": {
+      "Other": {
+        "mean_return": 0.14325842696629212,
+        "mean_questions": 5.0,
+        "accuracy": 0.39325842696629215
+      },
+      "Female": {
+        "mean_return": 0.1907114624505929,
+        "mean_questions": 5.0,
+        "accuracy": 0.4407114624505929
+      },
+      "Male": {
+        "mean_return": 0.12931034482758622,
+        "mean_questions": 5.0,
+        "accuracy": 0.3793103448275862
+      }
+    }
+  },
+  {
+    "name": "Greedy-evidence heuristic",
+    "n_episodes": 2000,
+    "mean_return": 0.181,
+    "mean_questions": 6.0,
+    "accuracy": 0.481,
+    "group_stats": {
+      "Male": {
+        "mean_return": 0.18051948051948052,
+        "mean_questions": 6.0,
+        "accuracy": 0.4805194805194805
+      },
+      "Female": {
+        "mean_return": 0.1808080808080808,
+        "mean_questions": 6.0,
+        "accuracy": 0.4808080808080808
+      },
+      "Other": {
+        "mean_return": 0.18837209302325578,
+        "mean_questions": 6.0,
+        "accuracy": 0.4883720930232558
+      }
+    }
+  }
+]
